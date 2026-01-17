@@ -1,10 +1,10 @@
 <?php
 // config.php
 
-$db_host = 'sql305.infinityfree.com';
-$db_user = 'if0_40614083';
-$db_pass = 'p1gSgzSdNIWFR';
-$db_name = 'if0_40614083_luminahost';
+$db_host = ''; 
+$db_user = '';
+$db_pass = '';
+$db_name = '';
 
 try {
     $pdo = new PDO("mysql:host=$db_host;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass);
