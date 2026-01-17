@@ -1,0 +1,13 @@
+
+# User generated content
+/users/*
+!/users/index.html
+!/users/.htaccess
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Temp
+*.tmp
